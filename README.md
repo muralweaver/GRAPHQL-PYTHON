@@ -2,11 +2,12 @@
 
 Learning all around GraphQL to go from zero to production.
 
+> GraphQL is a strongly typed query language that describes how to request data. GraphQL declares everything as a graph. You request what you want, and then you will get what you expected. Nothing more, nothing less.
 
 
-Sample code
+
+QUERY
 ```
-# QUERY
 query {
   links {
     id
@@ -15,7 +16,16 @@ query {
   }
 }
 
-# MUTATIONS
+query {
+  users {
+    id
+    username
+    email
+  }
+}
+```
+MUTATIONS
+```
 mutation{
   createLink(
     url: "#",
@@ -24,6 +34,16 @@ mutation{
     id
     url
     description
+  }
+}
+
+mutation{
+  createUser(username:"hellographql", email:"hello@example.com", password:"chroot") {
+    user{
+      id
+      email
+      username
+    }
   }
 }
 ```
