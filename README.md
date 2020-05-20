@@ -1,6 +1,6 @@
 # Graphql-python
 
-Learning all around GraphQL to go from zero to production.
+Learning about the Python library for developing a GraphQL server – Graphene – together with Django and Graphene-Django.
 
 > GraphQL is a strongly typed query language that describes how to request data. GraphQL declares everything as a graph. You request what you want, and then you will get what you expected. Nothing more, nothing less.
 
