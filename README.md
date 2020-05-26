@@ -5,7 +5,7 @@ Learning about the Python library for developing a GraphQL server â€“ Graphene â
 > GraphQL is a strongly typed query language that describes how to request data. GraphQL declares everything as a graph. You request what you want, and then you will get what you expected. Nothing more, nothing less.
 
 
-
+<!--
 QUERY
 ```
 query {
@@ -47,7 +47,7 @@ mutation{
   }
 }
 ```
-
+-->
 
 ## Useful Links
 - [How To GraphQL](https://www.howtographql.com/)
